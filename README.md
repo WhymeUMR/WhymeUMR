@@ -53,7 +53,7 @@ Im also very good at writing Guides like my Yuzu Emulator Guide or writing this 
 <br>
 <p align="center">Hewe awe some of my <br>
 most used s-s-sociaw things >~< xoxox</p>
-<p align="center"><a href="https://discord.me/depressed_2" target="_blank"><img src="https://img.shields.io/badge/CowzyThwighs%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"/></a></p>
+<p align="center"><a href="https://discord.me/depressed_2" target="_blank"><img src="https://img.shields.io/badge/Why me?%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"/></a></p>
 </div>
 
 
