@@ -1,4 +1,4 @@
-<h1 align="center">Hello, World! I am <a href="https://github.com/WhymeUMR" target="_blank">Aweny</a> 
+<h1 align="center">Hello, World! I am <a href="https://github.com/WhymeUMR" target="_blank">Why me?</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h3 align="center">I love working with Discord</h3>
 <picture>
