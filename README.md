@@ -1,6 +1,6 @@
 <h1 align="center">Hello, World! I am <a href="https://github.com/WhymeUMR" target="_blank">Why me?</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="center">I love working with Discord</h3>
+<h3 align="center">I love CloudZ ❤️</h3>
 
 # 💻 Tech Stack:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
