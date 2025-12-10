@@ -59,11 +59,8 @@
 <!-- РАЗДЕЛИТЕЛЬ -->
 <hr />
 
-<div align="center">
-  <h2>⏱️ My Coding Activity (WakaTime)</h2>
-  <img src="https://raw.githubusercontent.com/WhymeUMR/WhymeUMR/main/output/wakatime.svg" height="300" alt="Wakapi Coding Activity" />
-  <p><sub><b>Statistics powered by <a href="https://wakatime.com/">WakaTime</a></b> — time spent coding</sub></p>
-</div>
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 <!-- РАЗДЕЛИТЕЛЬ -->
 <hr />
@@ -83,11 +80,4 @@
   <a href="https://discordapp.com/users/777231600316317757"><img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"></a>
   <a href="https://t.me/HeartedWhyMe"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
   <a href="mailto:bogdanlazarev159@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</div>
-
-<!-- ПОДСЧЕТ ПРОСМОТРОВ -->
-<div align="center" style="margin-top: 20px;">
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=WhymeUMR&label=Profile%20Views&color=11&icon=5&pretty=false" alt="Visit Count" />
-  </a>
 </div>
