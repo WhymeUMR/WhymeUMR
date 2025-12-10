@@ -1,4 +1,4 @@
-name: Generate Animated Frame SVG
+name: Generate Static Frame SVG
 
 on:
   schedule:
@@ -18,25 +18,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Generate animated frame SVG
+      - name: Generate static frame SVG
         run: |
           mkdir -p output
           cat > output/animated-frame.svg << 'EOF'
           <svg width="600" height="120" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <style type="text/css"><![CDATA[
-                .pulse {
-                  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-                }
-                @keyframes pulse {
-                  0% { opacity: 0.8; transform: scale(1); }
-                  50% { opacity: 1; transform: scale(1.05); }
-                  100% { opacity: 0.8; transform: scale(1); }
-                }
-              ]]></style>
-            </defs>
             <rect width="100%" height="100%" fill="#1e1e2e"/>
-            <text x="50%" y="50%" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" class="pulse">
+            <text x="50%" y="50%" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">
               Code • Create • CloudZ
             </text>
           </svg>
@@ -47,5 +35,5 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add output/animated-frame.svg
-          git commit -m "Update animated frame" || echo "No changes to commit"
+          git commit -m "Update static frame" || echo "No changes to commit"
           git push origin HEAD:main
