@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate WakaTime SVG
-        uses: wakatime/readme-stats@v1.0.0
+        uses: wakatime/wakatime-readme@v1.0.0
         with:
           api_key: ${{ secrets.WAKATIME_API_KEY }}
           output_file: ./output/wakatime.svg
