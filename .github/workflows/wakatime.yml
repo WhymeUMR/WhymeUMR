@@ -1,0 +1,46 @@
+name: Generate WakaTime SVG
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Ежедневно в 00:00 UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Generate WakaTime SVG
+        uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_PROJECTS: "true"
+          SHOW_LANGUAGE: "true"
+          SHOWEditors: "true"
+          SHOW_OS: "true"
+          SHOW_COMMIT: "true"
+          SHOW_LOC: "true"
+          SHOW_TIMEZONE: "true"
+          SHOW_DAYS: "7"
+          THEME: "dracula"
+          LANG_COLOR: "true"
+          COMMIT_COLOR: "true"
+          LOC_COLOR: "true"
+          TIMEZONE_COLOR: "true"
+          OUTPUT_FILE: "./output/wakatime.svg"
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add output/wakatime.svg
+          git commit -m "Update WakaTime stats" || echo "No changes to commit"
+          git push origin HEAD:main
