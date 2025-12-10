@@ -18,13 +18,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Generate WakaTime SVG
+      - name: Generate WakaTime SVG (No README edit)
         uses: athul/waka-readme@master
         with:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          SECTION_NAME: "waka"
+          SHOW_TITLE: false  # Не показывать заголовок в README
           TIME_RANGE: "last_7_days"
           LANG_COUNT: 5
           SHOW_TIME: true
