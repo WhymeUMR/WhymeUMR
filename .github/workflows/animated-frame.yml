@@ -1,4 +1,4 @@
-name: Generate Static Frame SVG with Timestamp
+name: Generate Static Frame SVG (Force Update)
 
 on:
   schedule:
@@ -34,10 +34,10 @@ jobs:
           </svg>
           EOF
 
-      - name: Commit and push changes
+      - name: Commit and force push changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add output/animated-frame.svg
-          git commit -m "Update static frame with timestamp" || echo "No changes to commit (but we forced it)"
+          git commit -m "Update static frame with timestamp" --allow-empty --no-verify || echo "No changes, but forcing commit"
           git push origin HEAD:main
