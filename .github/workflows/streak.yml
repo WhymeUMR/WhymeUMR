@@ -22,6 +22,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # 👈 Это ключевая строка!
           outputs: |
             dist/streak.svg?theme=dracula&border_radius=5&hide_border=false&mode=daily&locale=en
 
