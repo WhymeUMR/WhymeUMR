@@ -1,8 +1,8 @@
-name: Generate Streak
+name: Generate Streak SVG
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Запускать каждый день в 00:00 UTC
+    - cron: '0 0 * * *'  # Ежедневно в 00:00 UTC
   workflow_dispatch:
   push:
     branches:
@@ -18,21 +18,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Generate streak.svg
+      - name: Generate streak graph
         uses: DavidAnson/markdownlint-cli2-action@v13
         with:
           config: .github/workflows/streak-config.json
 
-      - name: Generate streak graph (SVG)
-        uses: jaywcjlove/github-streak-stats@v2
+      - name: Generate GitHub Streak SVG
+        uses: Platane/snk@v3
         with:
-          username: ${{ github.repository_owner }}
+          github_user_name: ${{ github.repository_owner }}
+          output_file: ./output/streak.svg
           theme: dracula
           border_radius: 5
           hide_border: false
           mode: daily
           locale: en
-          output_file: ./output/streak.svg
 
       - name: Commit and push changes
         run: |
