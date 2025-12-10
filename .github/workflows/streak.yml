@@ -1,0 +1,43 @@
+name: Generate Streak
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Запускать каждый день в 00:00 UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Generate streak.svg
+        uses: DavidAnson/markdownlint-cli2-action@v13
+        with:
+          config: .github/workflows/streak-config.json
+
+      - name: Generate streak graph (SVG)
+        uses: jaywcjlove/github-streak-stats@v2
+        with:
+          username: ${{ github.repository_owner }}
+          theme: dracula
+          border_radius: 5
+          hide_border: false
+          mode: daily
+          locale: en
+          output_file: ./output/streak.svg
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add output/streak.svg
+          git commit -m "Update streak graph" || echo "No changes to commit"
+          git push origin HEAD:main
