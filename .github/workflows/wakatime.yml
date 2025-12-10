@@ -1,4 +1,4 @@
-name: Generate WakaTime Stats SVG
+name: Update WakaTime Stats in README
 
 on:
   schedule:
@@ -10,33 +10,26 @@ on:
       - master
 
 jobs:
-  generate:
+  update-readme:
+    name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Generate WakaTime SVG
-        uses: wakatime/wakatime-readme@v1.0.0
+      - name: Generate WakaTime Stats
+        uses: athul/waka-readme@master
         with:
-          api_key: ${{ secrets.WAKATIME_API_KEY }}
-          output_file: ./output/wakatime.svg
-          theme: dracula
-          show_languages: true
-          show_time: true
-          show_total: true
-          show_masked_time: false
-          stop_at_other: false
-          ignored_languages: ""
-          time_range: last_7_days
-          lang_count: 5
-
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git add output/wakatime.svg
-          git commit -m "Update WakaTime stats" || echo "No changes to commit"
-          git push origin HEAD:main
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
+          SECTION_NAME: waka
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 5
+          SHOW_TIME: true
+          SHOW_TOTAL: true
+          SHOW_MASKED_TIME: false
+          STOP_AT_OTHER: false
+          IGNORED_LANGUAGES: ""
+          COMMIT_MESSAGE: "Update WakaTime stats"
+          TARGET_BRANCH: main
+          TARGET_PATH: README.md
