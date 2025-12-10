@@ -21,21 +21,24 @@ jobs:
       - name: Generate WakaTime SVG
         uses: athul/waka-readme@master
         with:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_PROJECTS: "true"
-          SHOW_LANGUAGE: "true"
-          SHOWEditors: "true"
-          SHOW_OS: "true"
-          SHOW_COMMIT: "true"
-          SHOW_LOC: "true"
-          SHOW_TIMEZONE: "true"
-          SHOW_DAYS: "7"
-          THEME: "dracula"
-          LANG_COLOR: "true"
-          COMMIT_COLOR: "true"
-          LOC_COLOR: "true"
-          TIMEZONE_COLOR: "true"
-          OUTPUT_FILE: "./output/wakatime.svg"
+          SHOW_TITLE: true
+          SECTION_NAME: "WakaTime Stats"
+          TIME_RANGE: "last_7_days"
+          LANG_COUNT: 5
+          SHOW_TIME: true
+          SHOW_TOTAL: true
+          SHOW_MASKED_TIME: false
+          STOP_AT_OTHER: false
+          IGNORED_LANGUAGES: ""
+          COMMIT_MESSAGE: "Update WakaTime stats"
+          TARGET_BRANCH: "main"
+          TARGET_PATH: "output/wakatime.svg"
+          COMITTER_NAME: "GitHub Actions"
+          COMITTER_EMAIL: "actions@github.com"
+          AUTHOR_NAME: "GitHub Actions"
+          AUTHOR_EMAIL: "actions@github.com"
 
       - name: Commit and push changes
         run: |
