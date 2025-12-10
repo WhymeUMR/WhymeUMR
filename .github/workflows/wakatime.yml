@@ -1,4 +1,4 @@
-name: Generate WakaTime SVG
+name: Generate WakaTime Stats SVG
 
 on:
   schedule:
@@ -18,22 +18,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Generate WakaTime SVG (No README edit)
-        uses: athul/waka-readme@master
+      - name: Generate WakaTime SVG
+        uses: wakatime/readme-stats@v1.0.0
         with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: false  # Не показывать заголовок в README
-          TIME_RANGE: "last_7_days"
-          LANG_COUNT: 5
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          SHOW_MASKED_TIME: false
-          STOP_AT_OTHER: false
-          IGNORED_LANGUAGES: ""
-          COMMIT_MESSAGE: "Update WakaTime stats"
-          TARGET_BRANCH: "main"
-          TARGET_PATH: "output/wakatime.svg"
+          api_key: ${{ secrets.WAKATIME_API_KEY }}
+          output_file: ./output/wakatime.svg
+          theme: dracula
+          show_languages: true
+          show_time: true
+          show_total: true
+          show_masked_time: false
+          stop_at_other: false
+          ignored_languages: ""
+          time_range: last_7_days
+          lang_count: 5
 
       - name: Commit and push changes
         run: |
