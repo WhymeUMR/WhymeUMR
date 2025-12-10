@@ -59,12 +59,6 @@
 <!-- РАЗДЕЛИТЕЛЬ -->
 <hr />
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-<!-- РАЗДЕЛИТЕЛЬ -->
-<hr />
-
 <!-- БЛОК ЦИТАТЫ -->
 <div align="center">
   <h2>✨ Random Dev Quote</h2>
