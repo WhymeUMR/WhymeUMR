@@ -24,7 +24,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
-          SECTION_NAME: "WakaTime Stats"
+          SECTION_NAME: "waka"
           TIME_RANGE: "last_7_days"
           LANG_COUNT: 5
           SHOW_TIME: true
@@ -35,10 +35,6 @@ jobs:
           COMMIT_MESSAGE: "Update WakaTime stats"
           TARGET_BRANCH: "main"
           TARGET_PATH: "output/wakatime.svg"
-          COMITTER_NAME: "GitHub Actions"
-          COMITTER_EMAIL: "actions@github.com"
-          AUTHOR_NAME: "GitHub Actions"
-          AUTHOR_EMAIL: "actions@github.com"
 
       - name: Commit and push changes
         run: |
