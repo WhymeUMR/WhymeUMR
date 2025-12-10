@@ -1,8 +1,7 @@
 <!-- НАЧАЛО ПРОФИЛЯ -->
 <div align="center">
-  <h1>👋 Hello, World! I am <a href="https://github.com/WhymeUMR" target="_blank">Why me?</a> 
+  <h1>Hello, World! I am <a href="https://github.com/WhymeUMR" target="_blank">Why me?</a> 
   <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-  <h3>I love CloudZ ❤️</h3>
 </div>
 
 <!-- РАЗДЕЛИТЕЛЬ -->
@@ -42,9 +41,6 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg" height="40" alt="premiere" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg" height="40" alt="aftereffects" />
   </div>
-  <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
-    <img src="https://media.giphy.com/media/g2jj9VAIBluIreVNsb/giphy.gif" alt="Smolverse GIF" style="max-width: 100%; height: auto;" />
-  </div>
 </div>
 
 <!-- РАЗДЕЛИТЕЛЬ -->
@@ -77,20 +73,6 @@
 <div align="center">
   <h2>✨ Random Dev Quote</h2>
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox" height="100" alt="quote" />
-</div>
-
-<!-- РАЗДЕЛИТЕЛЬ -->
-<hr />
-
-<!-- БЛОК СТАТИСТИКИ ПО ПРОЕКТАМ -->
-<div align="center">
-  <h2>🚀 My Most Active Projects</h2>
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; max-width: 1200px;">
-    <!-- Пример: замените "MyProject" на названия ваших репозиториев -->
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WhymeUMR&repo=MyProject&theme=dracula" height="150" alt="MyProject" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WhymeUMR&repo=AnotherProject&theme=dracula" height="150" alt="AnotherProject" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WhymeUMR&repo=CloudZ&theme=dracula" height="150" alt="CloudZ" />
-  </div>
 </div>
 
 <!-- РАЗДЕЛИТЕЛЬ -->
