@@ -59,10 +59,9 @@
 <!-- РАЗДЕЛИТЕЛЬ -->
 <hr />
 
-<!-- БЛОК WAKATIME -->
 <div align="center">
   <h2>⏱️ My Coding Activity (WakaTime)</h2>
-  <img src="https://wakapi.snnlab.ru/api/activity/chart/WhymeUMR.svg?dark=true" height="300" alt="Wakapi Coding Activity" />
+  <img src="https://raw.githubusercontent.com/WhymeUMR/WhymeUMR/main/output/wakatime.svg" height="300" alt="Wakapi Coding Activity" />
   <p><sub><b>Statistics powered by <a href="https://wakatime.com/">WakaTime</a></b> — time spent coding</sub></p>
 </div>
 
