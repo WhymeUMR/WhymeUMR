@@ -22,12 +22,13 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          output_file: ./output/streak.svg
-          theme: dracula
-          border_radius: 5
-          hide_border: false
-          mode: daily
-          locale: en
+          outputs: |
+            dist/streak.svg?theme=dracula&border_radius=5&hide_border=false&mode=daily&locale=en
+
+      - name: Move file to output folder
+        run: |
+          mkdir -p output
+          mv dist/streak.svg output/streak.svg
 
       - name: Commit and push changes
         run: |
