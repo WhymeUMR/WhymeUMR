@@ -12,7 +12,6 @@
   <h2>📊 My GitHub Stats</h2>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=WhymeUMR&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph" />
   <br/>
-  <img src="https://my-stats-lilac.vercel.app/api?username=WhymeUMR&show_icons=true&count_private=true&include_all_commits=true&theme=dracula&hide_border=false" height="150" alt="stats graph" />
   <img src="https://my-stats-lilac.vercel.app/api/top-langs?username=WhymeUMR&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
   <img src="https://streak-stats.demolab.com?user=WhymeUMR&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph" />
 </div>
