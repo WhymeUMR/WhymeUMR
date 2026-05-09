@@ -37,7 +37,6 @@ engineer = {
     "name":     "Bogdan",
     "alias":    "WhymeUMR",
     "role":     "Backend Engineer",
-    "location": "Remote",
 
     "core_stack": [
         "Python",
@@ -56,7 +55,7 @@ engineer = {
 
     "currently_building": [
         "EGE-helper — AI-powered exam preparation platform",
-        "Blum-Software — backend automation & utilities"
+        "CloudZ - advanced vpn client"
     ],
 
     "architecture_focus": [
@@ -75,7 +74,7 @@ engineer = {
     ],
 
     "philosophy":
-        "Prefer maintainable systems over clever code."
+        "engineering is what works"
 }
 ```
 
@@ -305,13 +304,9 @@ $ roadmap --2026
   <img src="https://img.shields.io/badge/Telegram-@HeartedWhyMe-9d4edd?style=flat-square&logo=telegram&logoColor=white&labelColor=0d0d14" />
 </a>
 
-&nbsp;
-
 <a href="https://discordapp.com/users/777231600316317757">
   <img src="https://img.shields.io/badge/Discord-WhymeUMR-7c3aed?style=flat-square&logo=discord&logoColor=white&labelColor=0d0d14" />
 </a>
-
-&nbsp;
 
 <a href="mailto:bogdanlazarev159@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-contact-5b21b6?style=flat-square&logo=gmail&logoColor=white&labelColor=0d0d14" />
