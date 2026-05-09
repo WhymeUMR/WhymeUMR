@@ -205,8 +205,8 @@ currently_interested_in:
 
 &nbsp;
 
-<a href="https://github.com/WhymeUMR/Lectrum">
-  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=Lectrum&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
+<a href="https://github.com/WhymeUMR/vless-wizard">
+  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=vless-wizard&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
 <a href="https://github.com/WhymeUMR/Freelance-Helper">
