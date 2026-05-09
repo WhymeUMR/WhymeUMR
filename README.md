@@ -34,47 +34,39 @@
 
 ```python
 engineer = {
-    "name":     "Bogdan",
-    "alias":    "WhymeUMR",
-    "role":     "Backend Engineer",
+    "name":   "Bogdan",
+    "alias":  "WhymeUMR",
+    "role":   "Backend Engineer",
 
     "core_stack": [
         "Python",
-        "Go",
         "TypeScript",
+        "Go",
         "C#"
     ],
 
     "specialization": [
-        "backend systems",
-        "REST APIs",
-        "automation",
-        "infrastructure",
-        "async services"
+        "backend services",
+        "REST APIs & async pipelines",
+        "payments & integrations",
+        "infrastructure & automation"
     ],
 
     "currently_building": [
-        "EGE-helper — AI-powered exam preparation platform",
-        "CloudZ - advanced vpn client"
-    ],
-
-    "architecture_focus": [
-        "PostgreSQL optimization",
-        "Redis caching",
-        "Dockerized deployments",
-        "CI/CD pipelines",
-        "scalable API design"
+        "EGE Helper — Telegram bot for Russian state exam prep, powered by SM-2",
+        "CloudZ — VPN ecosystem: aiogram bot + web dashboard + Flutter app",
+        "Lectrum — microservice pipeline turning lectures into flashcards, summaries & TTS"
     ],
 
     "learning": [
         "distributed systems",
-        "DevOps",
         "Kubernetes",
+        "observability",
         "system design"
     ],
 
     "philosophy":
-        "engineering is what works"
+        "ship simple, scale predictably"
 }
 ```
 
@@ -142,28 +134,33 @@ engineer = {
 
 ```yaml
 backend:
-  - REST APIs
-  - service architecture
-  - async processing
-  - authentication systems
-  - automation tooling
+  - REST APIs & webhooks (FastAPI)
+  - async Telegram bots (aiogram 3)
+  - SQLAlchemy + Alembic migrations
+  - payment integrations (СБП / Platega)
+  - load testing with Locust
 
 database:
-  - PostgreSQL
-  - query optimization
-  - Redis caching
+  - PostgreSQL — schema design & query optimization
+  - Redis — caching, counters, TTL workflows
 
 infrastructure:
-  - Docker
-  - Linux servers
-  - GitHub Actions
-  - CI/CD pipelines
+  - Docker & docker-compose stacks
+  - GitHub Actions CI/CD
+  - Playwright automation pipelines
+  - Linux servers, Nginx
+
+frontend_when_needed:
+  - Next.js + Supabase
+  - TypeScript / Vite SPA
+  - Flutter (cross-platform mobile)
+  - Avalonia (.NET desktop)
 
 currently_interested_in:
-  - distributed systems
-  - observability
-  - backend performance
-  - scalable architectures
+  - distributed systems & message queues
+  - observability (OpenTelemetry, Prometheus)
+  - Kubernetes & service meshes
+  - backend performance & scaling
 ```
 
 ---
@@ -202,18 +199,18 @@ currently_interested_in:
   <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=EGE-helper&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
-<a href="https://github.com/WhymeUMR/Blum-Software">
-  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=Blum-Software&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
+<a href="https://github.com/WhymeUMR/CloudZ">
+  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=CloudZ&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
 &nbsp;
 
-<a href="https://github.com/WhymeUMR/Freelance-Helper">
-  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=Freelance-Helper&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
+<a href="https://github.com/WhymeUMR/Lectrum">
+  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=Lectrum&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
-<a href="https://github.com/WhymeUMR/vialink">
-  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=vialink&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
+<a href="https://github.com/WhymeUMR/Freelance-Helper">
+  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=Freelance-Helper&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
 </div>
@@ -254,11 +251,14 @@ currently_interested_in:
 $ roadmap --2026
 
 [✓] scalable REST APIs
-[✓] async backend services
+[✓] async backend services (aiogram + FastAPI)
 [✓] Dockerized deployments
+[✓] payment systems (СБП / Platega)
+[~] microservice pipelines (Lectrum)
 [~] observability stack
 [~] Kubernetes
 [ ] distributed systems at scale
+[ ] event-driven architectures
 ```
 
 ---
