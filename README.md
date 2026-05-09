@@ -199,8 +199,8 @@ currently_interested_in:
   <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=EGE-helper&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
-<a href="https://github.com/WhymeUMR/CloudZ">
-  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=CloudZ&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
+<a href="https://github.com/WhymeUMR/magnit-case">
+  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=magnit-case&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
 &nbsp;
