@@ -179,7 +179,7 @@ me = {
 
 <div align="center">
 
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=31lzpafmqexshs76zvn6qjpveanu&cover_image=true&theme=default&show_offline=true&background_color=0d0d14&interchange=true&profanity=true&bar_color=9d4edd&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=31lzpafmqexshs76zvn6qjpveanu&redirect=true)
+[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=31lzpafmqexshs76zvn6qjpveanu&cover_image=true&theme=novatorem&show_offline=true&background_color=0d0d14&interchange=true&bar_color=9d4edd&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=31lzpafmqexshs76zvn6qjpveanu&redirect=true)
 
 </div>
 
