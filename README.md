@@ -203,10 +203,18 @@ currently_interested_in:
   <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=EGE-helper&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
-&nbsp;
-
 <a href="https://github.com/WhymeUMR/Blum-Software">
   <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=Blum-Software&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
+</a>
+
+&nbsp;
+
+<a href="https://github.com/WhymeUMR/Freelance-Helper">
+  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=Freelance-Helper&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
+</a>
+
+<a href="https://github.com/WhymeUMR/vialink">
+  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=vialink&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
 </div>
