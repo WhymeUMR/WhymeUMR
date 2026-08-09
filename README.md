@@ -175,12 +175,12 @@ currently_interested_in:
 
 <img
   height="170"
-  src="https://github-readme-stats-one-cyan-22.vercel.app/api?username=WhymeUMR&show_icons=true&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6"
+  src="https://github-readme-stats-nu-taupe-56.vercel.app/api?username=WhymeUMR&show_icons=true&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6"
 />
 
 <img
   height="170"
-  src="https://github-readme-stats-one-cyan-22.vercel.app/api/top-langs/?username=WhymeUMR&layout=compact&theme=transparent&title_color=9d4edd&text_color=c4b5fd&border_color=3b0764&border_radius=6"
+  src="https://github-readme-stats-nu-taupe-56.vercel.app/api/top-langs/?username=WhymeUMR&layout=compact&theme=transparent&title_color=9d4edd&text_color=c4b5fd&border_color=3b0764&border_radius=6"
 />
 
 </div>
@@ -196,21 +196,21 @@ currently_interested_in:
 <div align="center">
 
 <a href="https://github.com/WhymeUMR/EGE-helper">
-  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=EGE-helper&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
+  <img src="https://github-readme-stats-nu-taupe-56.vercel.app/api/pin/?username=WhymeUMR&repo=EGE-helper&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
 <a href="https://github.com/WhymeUMR/magnit-case">
-  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=magnit-case&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
+  <img src="https://github-readme-stats-nu-taupe-56.vercel.app.vercel.app/api/pin/?username=WhymeUMR&repo=magnit-case&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
 &nbsp;
 
 <a href="https://github.com/WhymeUMR/vless-wizard">
-  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=vless-wizard&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
+  <img src="https://github-readme-stats-nu-taupe-56.vercel.app/api/pin/?username=WhymeUMR&repo=vless-wizard&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
 <a href="https://github.com/WhymeUMR/Freelance-Helper">
-  <img src="https://github-readme-stats-one-cyan-22.vercel.app/api/pin/?username=WhymeUMR&repo=Freelance-Helper&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
+  <img src="https://github-readme-stats-nu-taupe-56.vercel.app/api/pin/?username=WhymeUMR&repo=Freelance-Helper&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
 </div>
