@@ -16,15 +16,13 @@
 
 <br/>
 
-**English** · [Русский](README.ru.md)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=WhymeUMR&style=flat-square&color=9d4edd&labelColor=0d0d14&label=views)
+![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=WhymeUMR.WhymeUMR&left_color=%230d0d14&right_color=%239d4edd&left_text=views)
 &nbsp;
 ![Followers](https://img.shields.io/github/followers/WhymeUMR?style=flat-square&color=7c3aed&labelColor=0d0d14&label=followers)
 &nbsp;
 ![Focus](https://img.shields.io/badge/focus-backend%20systems-9d4edd?style=flat-square&labelColor=0d0d14)
+
+[![EN](https://img.shields.io/badge/EN-English-9d4edd?style=flat-square&labelColor=0d0d14)](README.md) [![RU](https://img.shields.io/badge/RU-%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-2e1065?style=flat-square&labelColor=0d0d14)](README.ru.md)
 
 </div>
 
@@ -287,7 +285,7 @@ $ roadmap --2026
 <div align="center">
 
 <a href="https://t.me/HeartedWhyMe">
-  <img src="https://img.shields.io/badge/Telegram-@HeartedWhyMe-9d4edd?style=flat-square&logo=telegram&logoColor=white&labelColor=0d0d14" />
+  <img src="https://img.shields.io/badge/Telegram-%40HeartedWhyMe-9d4edd?style=flat-square&logo=telegram&logoColor=white&labelColor=0d0d14" />
 </a>
 
 <a href="https://discordapp.com/users/777231600316317757">
