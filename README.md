@@ -16,6 +16,10 @@
 
 <br/>
 
+**English** · [Русский](README.ru.md)
+
+<br/>
+
 ![Profile Views](https://komarev.com/ghpvc/?username=WhymeUMR&style=flat-square&color=9d4edd&labelColor=0d0d14&label=views)
 &nbsp;
 ![Followers](https://img.shields.io/github/followers/WhymeUMR?style=flat-square&color=7c3aed&labelColor=0d0d14&label=followers)
@@ -53,9 +57,8 @@ engineer = {
     ],
 
     "currently_building": [
-        "EGE Helper — Telegram bot for Russian state exam prep, powered by SM-2",
-        "CloudZ — VPN ecosystem: aiogram bot + web dashboard + Flutter app",
-        "Lectrum — microservice pipeline turning lectures into flashcards, summaries & TTS"
+        "Lectrum: queue-based pipeline that turns lectures into transcripts, summaries, flashcards and TTS",
+        "deck-designer: builds a slide deck in the style of any uploaded .pptx template (LCT 2026, team project)"
     ],
 
     "learning": [
@@ -195,22 +198,12 @@ currently_interested_in:
 
 <div align="center">
 
-<a href="https://github.com/WhymeUMR/EGE-helper">
-  <img src="https://github-readme-stats-nu-taupe-56.vercel.app/api/pin/?username=WhymeUMR&repo=EGE-helper&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
-</a>
-
-<a href="https://github.com/WhymeUMR/magnit-case">
+<a href="https://github.com/WhymeUMR/Lectrum">
   <img src="https://github-readme-stats-nu-taupe-56.vercel.app/api/pin/?username=WhymeUMR&repo=Lectrum&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
-&nbsp;
-
-<a href="https://github.com/WhymeUMR/vless-wizard">
-  <img src="https://github-readme-stats-nu-taupe-56.vercel.app/api/pin/?username=WhymeUMR&repo=vless-wizard&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
-</a>
-
-<a href="https://github.com/WhymeUMR/Freelance-Helper">
-  <img src="https://github-readme-stats-nu-taupe-56.vercel.app/api/pin/?username=WhymeUMR&repo=Freelance-Helper&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
+<a href="https://github.com/Pobeda-Team/deck-designer">
+  <img src="https://github-readme-stats-nu-taupe-56.vercel.app/api/pin/?username=Pobeda-Team&repo=deck-designer&theme=transparent&title_color=9d4edd&icon_color=7c3aed&text_color=c4b5fd&border_color=3b0764&border_radius=6" />
 </a>
 
 </div>
@@ -226,14 +219,7 @@ currently_interested_in:
 <div align="center">
 
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=WhymeUMR&bg_color=00000000&color=c4b5fd&line=9d4edd&point=7c3aed&area=true&area_color=9d4edd&title_color=9d4edd&hide_border=true"
-  width="95%"
-/>
-
-<br/>
-
-<img
-  src="https://github-readme-streak-stats.herokuapp.com/?user=WhymeUMR&theme=dark&background=00000000&ring=9d4edd&fire=7c3aed&currStreakLabel=9d4edd&sideLabels=c4b5fd&dates=888888&border=3b0764&border_radius=6"
+  src="https://streak-stats.demolab.com/?user=WhymeUMR&theme=dark&background=00000000&ring=9d4edd&fire=7c3aed&currStreakLabel=9d4edd&sideLabels=c4b5fd&dates=888888&border=3b0764&border_radius=6"
   width="70%"
 />
 
