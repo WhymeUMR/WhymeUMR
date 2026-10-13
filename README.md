@@ -10,11 +10,9 @@
 ```
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=13&pause=900&color=9D4EDD&center=true&vCenter=true&random=false&width=700&lines=%3E+Backend+Engineer;%3E+Python+%7C+Go+%7C+TypeScript+%7C+C%23;%3E+Building+reliable+backend+systems;%3E+Distributed+systems+%2F+Infrastructure;%3E+Ship+simple.+Scale+predictably."
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=13&height=22&pause=900&color=9D4EDD&center=true&vCenter=true&random=false&width=700&lines=%3E+Backend+Engineer;%3E+Python+%7C+Go+%7C+TypeScript+%7C+C%23;%3E+Building+reliable+backend+systems;%3E+Distributed+systems+%2F+Infrastructure;%3E+Ship+simple.+Scale+predictably."
   alt="Typing SVG"
 />
-
-<br/>
 
 ![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=WhymeUMR.WhymeUMR&left_color=%230d0d14&right_color=%239d4edd&left_text=views)
 &nbsp;
