@@ -11,6 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Runs before snk: snk writes dist/ from a root-owned container.
+      - name: Draw activity graph
+        run: python3 .github/scripts/activity_graph.py WhymeUMR dist/activity-graph.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: Platane/snk@v3
         with:
           github_user_name: WhymeUMR
@@ -20,11 +26,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
  
-      - name: Draw activity graph
-        run: python3 .github/scripts/activity_graph.py WhymeUMR dist/activity-graph.svg
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
