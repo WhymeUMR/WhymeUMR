@@ -217,33 +217,19 @@ currently_interested_in:
 <div align="center">
 
 <img
+  src="https://raw.githubusercontent.com/WhymeUMR/WhymeUMR/output/activity-graph.svg"
+  alt="График активности"
+  width="95%"
+/>
+
+<br/>
+
+<img
   src="https://streak-stats.demolab.com/?user=WhymeUMR&theme=dark&background=00000000&ring=9d4edd&fire=7c3aed&currStreakLabel=9d4edd&sideLabels=c4b5fd&dates=888888&border=3b0764&border_radius=6"
   width="70%"
 />
 
 </div>
-
----
-
-```text
-┌─────────────────────────────────────────────────────────┐
-│  ~ / roadmap --2026                                     │
-└─────────────────────────────────────────────────────────┘
-```
-
-```bash
-$ roadmap --2026
-
-[✓] масштабируемые REST API
-[✓] асинхронные backend-сервисы (aiogram + FastAPI)
-[✓] деплой в Docker
-[✓] платёжные системы (СБП / Platega)
-[~] микросервисные пайплайны (Lectrum)
-[~] стек observability
-[~] Kubernetes
-[ ] распределённые системы под нагрузкой
-[ ] событийная архитектура
-```
 
 ---
 

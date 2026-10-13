@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate profile images
  
 on:
   schedule:
@@ -9,6 +9,8 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - uses: Platane/snk@v3
         with:
           github_user_name: WhymeUMR
@@ -18,6 +20,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
  
+      - name: Draw activity graph
+        run: python3 .github/scripts/activity_graph.py WhymeUMR dist/activity-graph.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output

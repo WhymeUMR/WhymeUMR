@@ -217,33 +217,19 @@ currently_interested_in:
 <div align="center">
 
 <img
+  src="https://raw.githubusercontent.com/WhymeUMR/WhymeUMR/output/activity-graph.svg"
+  alt="Contribution graph"
+  width="95%"
+/>
+
+<br/>
+
+<img
   src="https://streak-stats.demolab.com/?user=WhymeUMR&theme=dark&background=00000000&ring=9d4edd&fire=7c3aed&currStreakLabel=9d4edd&sideLabels=c4b5fd&dates=888888&border=3b0764&border_radius=6"
   width="70%"
 />
 
 </div>
-
----
-
-```text
-┌─────────────────────────────────────────────────────────┐
-│  ~ / roadmap --2026                                     │
-└─────────────────────────────────────────────────────────┘
-```
-
-```bash
-$ roadmap --2026
-
-[✓] scalable REST APIs
-[✓] async backend services (aiogram + FastAPI)
-[✓] Dockerized deployments
-[✓] payment systems (СБП / Platega)
-[~] microservice pipelines (Lectrum)
-[~] observability stack
-[~] Kubernetes
-[ ] distributed systems at scale
-[ ] event-driven architectures
-```
 
 ---
 
