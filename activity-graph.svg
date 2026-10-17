@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" font-family="JetBrains Mono, ui-monospace, monospace">
+<text x="500.0" y="30" fill="#9d4edd" font-size="18" font-weight="700" text-anchor="middle">WhymeUMR's Contribution Graph</text>
+<line x1="56" y1="272.0" x2="976" y2="272.0" stroke="#3b0764" stroke-dasharray="3 4"/>
+<text x="46" y="276.0" fill="#c4b5fd" font-size="11" text-anchor="end">0</text>
+<line x1="56" y1="218.0" x2="976" y2="218.0" stroke="#3b0764" stroke-dasharray="3 4"/>
+<text x="46" y="222.0" fill="#c4b5fd" font-size="11" text-anchor="end">14</text>
+<line x1="56" y1="164.0" x2="976" y2="164.0" stroke="#3b0764" stroke-dasharray="3 4"/>
+<text x="46" y="168.0" fill="#c4b5fd" font-size="11" text-anchor="end">28</text>
+<line x1="56" y1="110.0" x2="976" y2="110.0" stroke="#3b0764" stroke-dasharray="3 4"/>
+<text x="46" y="114.0" fill="#c4b5fd" font-size="11" text-anchor="end">42</text>
+<line x1="56" y1="56.0" x2="976" y2="56.0" stroke="#3b0764" stroke-dasharray="3 4"/>
+<text x="46" y="60.0" fill="#c4b5fd" font-size="11" text-anchor="end">56</text>
+<text x="56.0" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">17</text>
+<text x="86.7" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">18</text>
+<text x="117.3" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">19</text>
+<text x="148.0" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">20</text>
+<text x="178.7" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">21</text>
+<text x="209.3" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">22</text>
+<text x="240.0" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">23</text>
+<text x="270.7" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">24</text>
+<text x="301.3" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">25</text>
+<text x="332.0" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">26</text>
+<text x="362.7" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">27</text>
+<text x="393.3" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">28</text>
+<text x="424.0" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">29</text>
+<text x="454.7" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">30</text>
+<text x="485.3" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">1</text>
+<text x="516.0" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">2</text>
+<text x="546.7" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">3</text>
+<text x="577.3" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">4</text>
+<text x="608.0" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">5</text>
+<text x="638.7" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">6</text>
+<text x="669.3" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">7</text>
+<text x="700.0" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">8</text>
+<text x="730.7" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">9</text>
+<text x="761.3" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">10</text>
+<text x="792.0" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">11</text>
+<text x="822.7" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">12</text>
+<text x="853.3" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">13</text>
+<text x="884.0" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">14</text>
+<text x="914.7" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">15</text>
+<text x="945.3" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">16</text>
+<text x="976.0" y="292" fill="#c4b5fd" font-size="11" text-anchor="middle">17</text>
+<text x="500.0" y="314" fill="#c4b5fd" font-size="11" text-anchor="middle">Days</text>
+<text x="14" y="164.0" fill="#c4b5fd" font-size="11" text-anchor="middle" transform="rotate(-90 14 164.0)">Contributions</text>
+<polygon points="56.0,272.0 56.0,272.0 86.7,272.0 117.3,272.0 148.0,272.0 178.7,260.4 209.3,260.4 240.0,252.7 270.7,256.6 301.3,272.0 332.0,252.7 362.7,268.1 393.3,229.6 424.0,256.6 454.7,272.0 485.3,272.0 516.0,237.3 546.7,264.3 577.3,272.0 608.0,56.0 638.7,260.4 669.3,272.0 700.0,183.3 730.7,129.3 761.3,241.1 792.0,233.4 822.7,272.0 853.3,260.4 884.0,268.1 914.7,272.0 945.3,241.1 976.0,252.7 976.0,272.0" fill="#9d4edd" fill-opacity="0.18"/>
+<polyline points="56.0,272.0 86.7,272.0 117.3,272.0 148.0,272.0 178.7,260.4 209.3,260.4 240.0,252.7 270.7,256.6 301.3,272.0 332.0,252.7 362.7,268.1 393.3,229.6 424.0,256.6 454.7,272.0 485.3,272.0 516.0,237.3 546.7,264.3 577.3,272.0 608.0,56.0 638.7,260.4 669.3,272.0 700.0,183.3 730.7,129.3 761.3,241.1 792.0,233.4 822.7,272.0 853.3,260.4 884.0,268.1 914.7,272.0 945.3,241.1 976.0,252.7" fill="none" stroke="#9d4edd" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="56.0" cy="272.0" r="4" fill="#7c3aed"><title>17 Sep: 0</title></circle>
+<circle cx="86.7" cy="272.0" r="4" fill="#7c3aed"><title>18 Sep: 0</title></circle>
+<circle cx="117.3" cy="272.0" r="4" fill="#7c3aed"><title>19 Sep: 0</title></circle>
+<circle cx="148.0" cy="272.0" r="4" fill="#7c3aed"><title>20 Sep: 0</title></circle>
+<circle cx="178.7" cy="260.4" r="4" fill="#7c3aed"><title>21 Sep: 3</title></circle>
+<circle cx="209.3" cy="260.4" r="4" fill="#7c3aed"><title>22 Sep: 3</title></circle>
+<circle cx="240.0" cy="252.7" r="4" fill="#7c3aed"><title>23 Sep: 5</title></circle>
+<circle cx="270.7" cy="256.6" r="4" fill="#7c3aed"><title>24 Sep: 4</title></circle>
+<circle cx="301.3" cy="272.0" r="4" fill="#7c3aed"><title>25 Sep: 0</title></circle>
+<circle cx="332.0" cy="252.7" r="4" fill="#7c3aed"><title>26 Sep: 5</title></circle>
+<circle cx="362.7" cy="268.1" r="4" fill="#7c3aed"><title>27 Sep: 1</title></circle>
+<circle cx="393.3" cy="229.6" r="4" fill="#7c3aed"><title>28 Sep: 11</title></circle>
+<circle cx="424.0" cy="256.6" r="4" fill="#7c3aed"><title>29 Sep: 4</title></circle>
+<circle cx="454.7" cy="272.0" r="4" fill="#7c3aed"><title>30 Sep: 0</title></circle>
+<circle cx="485.3" cy="272.0" r="4" fill="#7c3aed"><title>01 Oct: 0</title></circle>
+<circle cx="516.0" cy="237.3" r="4" fill="#7c3aed"><title>02 Oct: 9</title></circle>
+<circle cx="546.7" cy="264.3" r="4" fill="#7c3aed"><title>03 Oct: 2</title></circle>
+<circle cx="577.3" cy="272.0" r="4" fill="#7c3aed"><title>04 Oct: 0</title></circle>
+<circle cx="608.0" cy="56.0" r="4" fill="#7c3aed"><title>05 Oct: 56</title></circle>
+<circle cx="638.7" cy="260.4" r="4" fill="#7c3aed"><title>06 Oct: 3</title></circle>
+<circle cx="669.3" cy="272.0" r="4" fill="#7c3aed"><title>07 Oct: 0</title></circle>
+<circle cx="700.0" cy="183.3" r="4" fill="#7c3aed"><title>08 Oct: 23</title></circle>
+<circle cx="730.7" cy="129.3" r="4" fill="#7c3aed"><title>09 Oct: 37</title></circle>
+<circle cx="761.3" cy="241.1" r="4" fill="#7c3aed"><title>10 Oct: 8</title></circle>
+<circle cx="792.0" cy="233.4" r="4" fill="#7c3aed"><title>11 Oct: 10</title></circle>
+<circle cx="822.7" cy="272.0" r="4" fill="#7c3aed"><title>12 Oct: 0</title></circle>
+<circle cx="853.3" cy="260.4" r="4" fill="#7c3aed"><title>13 Oct: 3</title></circle>
+<circle cx="884.0" cy="268.1" r="4" fill="#7c3aed"><title>14 Oct: 1</title></circle>
+<circle cx="914.7" cy="272.0" r="4" fill="#7c3aed"><title>15 Oct: 0</title></circle>
+<circle cx="945.3" cy="241.1" r="4" fill="#7c3aed"><title>16 Oct: 8</title></circle>
+<circle cx="976.0" cy="252.7" r="4" fill="#7c3aed"><title>17 Oct: 5</title></circle>
+</svg>
